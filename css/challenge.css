@@ -1,0 +1,151 @@
+/* CLASS TAGS */
+.top-container {
+  background-color: #EAF6F6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.bottom-container {
+  margin-top: 100px;
+
+  padding-top: 50px;
+  padding-bottom: 20px;
+
+  background-color: #66BFBF;
+  color: #EAF6F6;
+}
+
+.top-cloud {
+  height: 70px;
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.profile {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 15px;
+}
+
+.bio {
+  width: 30%;
+  margin: auto;
+}
+
+.skills {
+  margin-top: 65px;
+  margin-bottom: 50px;
+}
+
+.skill-row {
+  width: 50%;
+
+  margin: 65px auto 150px;
+
+  text-align: left;
+}
+
+.computer-img {
+  width: 200px;
+
+  float: left;
+  margin-right: 30px;
+}
+
+.chillies-img {
+  width: 200px;
+
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  margin-top: 65px;
+}
+
+.contact-msg {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+	box-shadow:inset 0 -3px 7px 0 #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:3px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Montserrat', sans-serif;
+	font-size:20px;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #263666;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+/* GENERAL TAGS */
+/* removing margins */
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 6rem;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  color: #EAF6F6;
+  border-width: 8px;
+  border-style: dotted none none none;
+  width: 4%;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+
+  margin: 10px 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
